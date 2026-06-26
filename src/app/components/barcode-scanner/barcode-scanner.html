@@ -10,6 +10,6 @@
     @else {
         <p>Not scanning</p>
     }
-  <button type="button" [disabled]="isScanning()" (click)="startScan()">Start Scanning</button>
-  <button type="button" [disabled]="!isScanning()" (click)="stopScan()">Stop Scanning</button>
+  <button class="btn btn--start" type="button" [disabled]="isScanning()" (click)="startScan()">Start Scanning</button>
+  <button class="btn btn--stop" type="button" [disabled]="!isScanning()" (click)="stopScan()">Stop Scanning</button>
 </div>

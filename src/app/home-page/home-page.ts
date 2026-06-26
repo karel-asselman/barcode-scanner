@@ -5,7 +5,7 @@ import { BarcodeScanner } from "../components/barcode-scanner/barcode-scanner";
   selector: 'app-home-page',
   imports: [BarcodeScanner],
   templateUrl: './home-page.html',
-  styleUrls: ['./home-page.css'],
+  styleUrls: ['./home-page.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomePage {

@@ -11,7 +11,7 @@ import {
   selector: 'app-barcode-scanner',
   imports: [],
   templateUrl: './barcode-scanner.html',
-  styleUrls: ['./barcode-scanner.css'],
+  styleUrls: ['./barcode-scanner.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BarcodeScanner implements AfterViewInit {
