@@ -1,15 +1,6 @@
-<p>barcode-scanner works!</p>
-
-<video #videoElement></video>
-
 <div>
-    @if(isScanning()) 
-    {
-        <p>Scanning...</p>
-    } 
-    @else {
-        <p>Not scanning</p>
-    }
-  <button class="btn btn--start" type="button" [disabled]="isScanning()" (click)="startScan()">Start Scanning</button>
-  <button class="btn btn--stop" type="button" [disabled]="!isScanning()" (click)="stopScan()">Stop Scanning</button>
+
+        <button class="btn btn--start" type="button" (click)="scan()">Start Scanning</button>
+
 </div>
+<video #videoElement></video>
